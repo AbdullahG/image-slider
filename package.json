@@ -1,0 +1,19 @@
+{
+  "name": "@abdullahg/image-slider",
+  "version": "1.0.0",
+  "description": "simple image slider accepts image and renders in order with buttons",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahG/image-slider.git"
+  },
+  "author": "AbdullahGuersu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdullahG/image-slider/issues"
+  },
+  "homepage": "https://github.com/AbdullahG/image-slider#readme"
+}
