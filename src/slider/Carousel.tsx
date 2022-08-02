@@ -33,12 +33,15 @@ const Carousel: React.FC<Props> = ({ images }) => {
 
   return (
     <div className="Carousel">
-      {images.length > 1 && <GrPrevious className="Prev-Button-Icon"
-        onClick={handlePrevClick} size="100" />}
-      <img className="Carousel-Img" onClick={handleNextClick}
+      {images.length > 1 && <div onClick={handlePrevClick} className="Prev-Button-Icon">
+        <GrPrevious size="100" /> </div> }
+      <div className="Carousel-Img">
+      <img onClick={handleNextClick}
         src={images[index]} alt="special image"/>
-      {images.length > 1 && <GrNext className="Next-Button-Icon"
-        onClick={handleNextClick} size="100" />}
+      </div>
+      {images.length > 1 && <div onClick={handleNextClick} className="Next-Button-Icon">
+      <GrNext size="100" />
+        </div>}
       <style jsx>
         {`
             .Carousel {

@@ -15,4 +15,8 @@
   "bugs": {
     "url": "https://github.com/AbdullahG/image-slider/issues"
   },
-  "homepage": "https://github.com/AbdullahG/image-slider#readme"
+  "homepage": "https://github.com/AbdullahG/image-slider#readme",
+  "dependencies": {
+    "react-icons": "^4.4.0"
+  }
+}
